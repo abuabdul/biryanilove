@@ -5320,8 +5320,8 @@ textarea.form-control.is-invalid {
   z-index: 0;
 }
 .food-box-layout5 .discount-body .discount-content .sec-title1 {
-  font-size: 50px;
-  line-height: 66px;
+  font-size: 40px;
+  line-height: 75px;
 }
 .food-box-layout5 .discount-body .discount-content .discount-text {
   font-size: 18px;
@@ -6895,8 +6895,8 @@ textarea.form-control.is-invalid {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: var(--dark-color);
-  padding: 48px 40px 30px 86px;
+  background-color: #b90010;
+  padding: 48px 40px 36px 75px;
 }
 .vs-subscribe-layout3 .vs-btn-group {
   display: flex;
@@ -15303,6 +15303,10 @@ table.checkout-ordertable tfoot tr:last-child td {
   .add-area .marquee-title {
     font-size: 70px;
   }
+   .loader-logo{
+    width: 75%;
+    margin: 0 auto;
+  }
 }
 /* Extra small devices */
 @media (max-width: 576px) {
@@ -15324,8 +15328,17 @@ table.checkout-ordertable tfoot tr:last-child td {
   .vs-service-layout3 .service-list .service-item .service-content .service-numbar {
     margin-right: 10px;
   }
+  .loader-logo{
+    width: 75%;
+    margin: 0 auto;
+  }
 }
+.halalimg_hdr{
 
+  width: 85px;
+  margin-right: 20px;
+
+}
 .footer_bg{
   background-image: url(../images/footer_bg.png);
   background-size: cover;
@@ -15338,10 +15351,25 @@ table.checkout-ordertable tfoot tr:last-child td {
 }
 .party_btn{
   padding: 17px 48px !important;
-  background-color: var(--yellow-color) !important;
+  background-color: var(--pink-color) !important;
 }
 .party_btn:hover{
   padding: 17px 48px !important;
-  background-color: var(--pink-color) !important;
+  background-color: var(--yellow-color) !important;
 }
+.wapp_btn{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:110px;
+  right:30px;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+/*.wicon-float{
+  margin-top:16px;
+}*/
 /*# sourceMappingURL=style.css.map */
