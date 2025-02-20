@@ -1714,7 +1714,7 @@ textarea.form-control.is-invalid {
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  background-color: var(--white-color);
+/*  background-color: var(--white-color);*/
 }
 .icon-btn:hover {
   color: var(--white-color) !important;
@@ -3594,8 +3594,8 @@ textarea.form-control.is-invalid {
   background-color: var(--secondary-color);
 }
 .footer-widget-layout3 .social-links.links-has-border a:hover {
-  background-color: rgb(184, 0, 17);
-  border-color: rgb(184, 0, 17);
+  background-color: rgb(255 182 36);
+  border-color: rgb(255 182 36);
 }
 .footer-widget-layout3 .widget_title {
   color: var(--white-color);
@@ -6722,6 +6722,11 @@ textarea.form-control.is-invalid {
   #tw_mob_hide{
     display: none;
   }
+  .hmclogo_mob{
+        width: 50px;
+    margin-right: 20px;
+    padding: 2px;
+  }
 }
 .vs-testimonial-layout2 {
   position: relative;
@@ -6874,13 +6879,24 @@ textarea.form-control.is-invalid {
   }
 }
 /* Extra small devices */
-@media (max-width: 576px) {
+@media (max-width: 390px) {
   .testimonial-author-box1 .slick-arrow {
     font-size: 18px;
     right: 20px;
   }
   .testimonial-author-box1 .slick-arrow.slick-prev {
     right: 50px;
+  }
+   .call-btn{
+    padding: 5px;
+    margin-left: 50px;
+    float: left;
+  }
+  .call-btn i{
+    font-size: 16px !important;
+    left: 4px;
+    bottom: 0px !important;
+    margin-right: 10px !important;
   }
 }
 .vs-testimonial-layout3 .testimonial-text {
@@ -15635,4 +15651,25 @@ hr{
 }
 /*# sourceMappingURL=style.css.map */
 
+.float-area{
+    position: fixed;
+    top: 50%;  
+    left: 1%;  
+    z-index: 100;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
 
+.floating-img{
+  transform: translateY(-10%);
+  animation: floater 1.5s infinite;
+  transition: ease 0.5s;
+  width: 80px;
+  height:80px;
+}
+
+@keyframes floater {
+  0%{transform: translateY(-10%);transition: ease 0.5s;}
+  50%{transform: translateY(10%);transition: ease 0.5s;}
+}

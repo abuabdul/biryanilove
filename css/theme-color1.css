@@ -164,4 +164,7 @@ input[type=checkbox]:checked ~ label:before,
 .ls-text-theme {
   color: #ffb624 !important;
 }
+li.menu-item a:hover, li.menu-item a.active{
+    color: #ee327d !important;
+}
 /*# sourceMappingURL=theme-color1.css.map */
